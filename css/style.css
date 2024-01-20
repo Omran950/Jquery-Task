@@ -1,0 +1,194 @@
+/* Start Global */
+a,
+span {
+  color: inherit;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3rem;
+}
+/* End Global */
+
+/* Start Home */
+
+#home {
+  background-image: linear-gradient(rgb(130, 28, 32, 0.6) 0% 100%),
+    url("../images/events-heavenly-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* End Home */
+
+/* Start NavBar */
+
+#navbar {
+  left: 0;
+  top: 0;
+}
+
+#navbar .content {
+  width: 250px;
+  background-color: black;
+}
+
+#navbar .content ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#navbar .content .close-icon i {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#navbar .content ul li,
+#navbar .content .close-icon,
+.icon,
+#accordion h3 {
+  cursor: pointer;
+}
+
+#navbar .content ul li:hover a,
+#navbar .content .close-icon i:hover {
+  color: brown;
+}
+
+/* End NavBar */
+
+/* Start Acordion */
+
+#accordion h3 {
+  background-color: #e68285;
+  color: white;
+  margin: 0;
+}
+
+#accordion P {
+  background-color: #cccccc;
+  margin: 0;
+}
+
+/* End Acordion */
+
+/* Start Counter */
+#count {
+  background-image: linear-gradient(rgb(130, 28, 32, 0.7) 0% 100%),
+    url("../images/invitation-2508607__340.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.countDiv {
+  border: 1px solid #fff;
+}
+/* End Counter */
+
+/* Start Contact */
+#contact-us .aboutUs p {
+  color: #777;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+#contact-us .contactEnd h3 {
+  color: #444;
+}
+
+#contact-us .contactEnd p {
+  color: #777;
+}
+
+#contact-us .contactEnd .acoountP {
+  color: #d62e33 !important;
+}
+#contact-us .icons {
+  margin-top: 50px;
+}
+#contact-us .icons p {
+  margin-bottom: 35px;
+}
+#contact-us i {
+  margin-right: 20px;
+  color: #777;
+}
+#contact-us .contactEnd .social {
+  margin-top: 60px;
+  color: #777;
+}
+#contact-us input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#contact-us textarea {
+  height: 200px;
+  resize: vertical;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#counter {
+  font-size: 20px;
+  color: #d62e33;
+}
+#contact-us button {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn {
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#contact-us .contactEnd .social i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  color: #777;
+  font-weight: 400;
+  transition: all 1s;
+}
+#contact-us .contactEnd .social i:hover {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+#contact-us .col-md-6 button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid red;
+  box-shadow: 20px #495057;
+}
+/* End Contact */
